@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+
+# Build artifacts
+build/
+dist/
+out/
+
+# Dependency directories
+/.pnp/
+.pnp.js
+__pycache__/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Logs
+logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# environment files
+.env
+*.env
+
+# pip related files
+Pipfile
+Pipfile.lock
+
+# other
+.dockerignore
