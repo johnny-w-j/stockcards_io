@@ -24,6 +24,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
+    "http://localhost:3000",
     "http://stockcards.frontend.app.s3-website-us-east-1.amazonaws.com",
 ]
 app.add_middleware(
@@ -133,3 +134,8 @@ async def delete_company(ticker):
     if response:
         return "Successfully deleted company"
     raise HTTPException(404, f"There is no company with the title {ticker}")
+
+# catch all for non-existent paths
+@app.route("/{path:path}", include_in_schema=False)
+async def catch_all(path: str):
+    raise HTTPException(status_code=404, detail="Resource Not Found")
