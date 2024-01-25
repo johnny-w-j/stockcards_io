@@ -6,7 +6,7 @@ StockCards IO is a full-stack web application with a React frontend, Python-base
 
 ## Live Demo
 
-Check out the live demo for desktop browsers: [StockCards IO Demo](http://tinyurl.com/4efewr9f)
+Check out the live demo for desktop browsers: [StockCards IO Demo](https://stockcardsio.link/)
 
 ## Technologies Used
 
@@ -22,6 +22,7 @@ Check out the live demo for desktop browsers: [StockCards IO Demo](http://tinyur
 
 [Instructions on how to set up and run the project locally]
 
-1. Frontend: Install the dependencies and run 'npm build'
+1. Frontend: Install the dependencies and run 'npm run build'
 2. Backend: Build the docker image and run it in a container
 3. Setup a local MongoDB
+4. construct a .env that includes a QuickFS api key, and MongoDB server address (with credentials)

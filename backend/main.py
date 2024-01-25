@@ -24,8 +24,9 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
+    "https://stockcardsio.link",
     "http://stockcards.frontend.app.s3-website-us-east-1.amazonaws.com",
+    "http://localhost:3000",
 ]
 app.add_middleware(
     CORSMiddleware,
