@@ -4,10 +4,6 @@ StockCards IO is a full-stack web application with a React frontend, Python-base
 
 ![Demo screenshot](demo_screenshot.png)
 
-## Live Demo
-
-Check out the live demo for desktop browsers: [https://stockcardsio.link/](https://stockcardsio.link/)
-
 ## Technologies Used
 
 - React (Frontend)
